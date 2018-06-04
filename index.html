@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <script src="https://use.fontawesome.com/2bd6cb94a9.js"></script>
 </head>
 
 <body>
@@ -15,13 +16,13 @@
     <nav class="navbar">
         <ul>
             <li>
-                <a class="nav-item" href=#> About </a>
+                <a class="nav-item" href=#about-section> About </a>
             </li>
             <li>
-                <a class="nav-item" href=#> Portfolio </a>
+                <a class="nav-item" href=#portfolio-section> Portfolio </a>
             </li>
             <li>
-                <a class="nav-item" href=#> Contact </a>
+                <a class="nav-item" href=#contact-section> Contact </a>
             </li>
         </ul>
     </nav>
@@ -36,31 +37,35 @@
 
     <main class="content">
         
-        <div class="about-section">
+        <div id="about-section">
             <h1 class="section-head"> About me </h1>
             <div class="about-blurb">
                 <img class="prof-pic" src="sde.jpg" />
-                <p class="personal-statement">I am driven by bringing knowledge of human needs, motivations, and behaviors together with strategy, design, and technology to create solutions that improve people’s lives. <br/> <br/> I want the work I do to have a lasting impact on those it touches, while also learning, growing, and having fun along the way. <br/> <br/> Said another way, <span class="accent"> I just like to make kickass stuff. </span </p>
+                <p class="personal-statement">I am energized by bringing knowledge of human needs, motivations, and behaviors together with strategy, design, and technology to create solutions that improve people’s lives. <br/> <br/> I want the work I do to have a lasting impact on those it touches, while also learning, growing, and having fun along the way. <br/> <br/> Said another way, <span class="accent"> I just like to make kickass stuff. </span> </p>
             </div>
         </div>
 
-        <div>
+        <div id="portfolio-section">
             <h1 class="section-head"> My work </h1>
-            <div>Project 1</div>
-            <div>Project 2</div>
-            <div>Project 3</div>
-            <div>Project 4</div>
-            <div>Project 5</div>
-            <div>Project 6</div>
+            <div class="portfolio">
+                <div class="grid-item">Project 1</div>
+                <div class="grid-item">Project 2</div>
+                <div class="grid-item">Project 3</div>
+                <div class="grid-item">Project 4</div>
+                <div class="grid-item">Project 5</div>
+                <div class="grid-item">Project 6</div>
+            </div>
         </div>
 
-        <div>
+        <div id="contact-section">
             <h1 class="section-head"> How to get in touch </h1>
-            <h2> freecodecamp </h2>
-            <h2> github </h2>
-            <h2> facebook </h2>
-            <h2> twitter </h2>
-            <h2> linkedin </h2>
+            <div class="contact-box">
+                <a href = https://www.facebook.com/SDEdison  target="_blank"><i class="contact-link fa fa-facebook-square fa-5x"> </i></a>
+                <a href = https://twitter.com/S_Edison  target="_blank"><i class="contact-link fa fa-twitter-square fa-5x"> </i> </a>
+                <a href = https://github.com/sdedison  target="_blank"><i class="contact-link fa fa-github-square fa-5x"> </i> </a>
+                <a href = https://linkedin.com/in/samuel-edison-50b80a38  target="_blank"><i class="contact-link fa fa-linkedin-square fa-5x"> </i>
+                <a href= https://www.freecodecamp.org/portfolio/sdedison  target="_blank"><i class="contact-link fa fa-free-code-camp fa-5x"> </i> </a>
+            </div>
         </div>
     </main>
 
